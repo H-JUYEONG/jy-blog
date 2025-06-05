@@ -15,5 +15,5 @@ JPA와 MyBatis를 활용한 블로그 프로젝트입니다.
 - 댓글 시스템
 
 ## 실행 방법
-```bash
+bash
 ./gradlew bootRun
