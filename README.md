@@ -17,4 +17,3 @@ JPA와 MyBatis를 활용한 블로그 프로젝트입니다.
 ## 실행 방법
 ```bash
 ./gradlew bootRun
-..
