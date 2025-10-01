@@ -17,6 +17,6 @@ public class Homecontroller {
 
     @GetMapping("/api")
     public String api() {
-        return "API 서버가 정상 작동중입니다!";
+        return "API 서버가 정상 작동중입니다!!!!";
     }
 }
