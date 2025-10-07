@@ -12,7 +12,7 @@ public class Homecontroller {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, MyBatis + JPA Blog.";
+        return "Hello, MyBatis + JPA Blog";
     }
 
     @GetMapping("/api")
