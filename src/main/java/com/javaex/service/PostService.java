@@ -35,7 +35,7 @@ public class PostService {
         return postRepository.findByAuthorIdOrderByCreatedAtDesc(authorId);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional(readOnly = false)
     public List<Post> searchPosts(String keyword) {
         return postRepository.searchByKeyword(keyword);
     }
