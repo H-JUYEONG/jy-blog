@@ -27,12 +27,12 @@ public class PostService {
 
     @Transactional(readOnly = true)
     public List<Post> findAllPosts() {
-        return postRepository.findAllByOrderByCreatedAtDesc();
+        return postRepository.findAllByOrderByCreatedAtAsc();
     }
 
     @Transactional(readOnly = true)
     public List<Post> findPostsByAuthorId(Long authorId) {
-        return postRepository.findByAuthorIdOrderByCreatedAtDesc(authorId);
+        return postRepository.findByAuthorIdOrderByCreatedAtAsc(authorId);
     }
 
     @Transactional(readOnly = true)
