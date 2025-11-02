@@ -1,7 +1,7 @@
 # Gradle로 구성한 Spring Boot 학습용 블로그 프로젝트
 
 ## 프로젝트 소개
-JPA와 MyBatis를 활용한 블로그 프로젝트
+JPA와 MyBatis를 활용한 블로그 프로젝트 입니다.
 
 ## 기술 스택
 - **Framework**: Spring Boot 3.5.0
@@ -17,4 +17,5 @@ JPA와 MyBatis를 활용한 블로그 프로젝트
 ## 실행 방법
 ```bash
 ./gradlew bootRun
+
 
